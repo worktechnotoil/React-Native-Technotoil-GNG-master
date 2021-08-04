@@ -1,0 +1,43 @@
+{
+  "expo": {
+    
+    "name": "GNG",
+    "slug": "gng",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/Splash1.png",
+      "resizeMode":"cover"
+      
+     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Enable Camera Acess for capture the user profile",
+        "NSPhotoLibraryUsageDescription": "Enable Camera Roll Access for select the user profile"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.gng.myapp",
+      "versionCode": 1
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
